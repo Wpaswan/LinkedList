@@ -1,4 +1,4 @@
-﻿using LinkedListApplication;
+﻿using LinkedListApplicaton;
 LinkedList list = new LinkedList();
 list.Add(56);
 list.Add(30);
