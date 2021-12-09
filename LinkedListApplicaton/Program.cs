@@ -21,6 +21,14 @@ list5.Add(30);
 list5.Add(70);
 list5.RemovaLastNode();
 list5.Display();
+//Search Node 30 from the given liked list
+Console.WriteLine("Searching the Nodes");
+LinkedList list6 = new LinkedList();
+list6.Add(56);
+list6.Add(30);
+list6.Add(70);
+list6.Search(30);
+list6.Display();
 Console.ReadKey();
 
 
