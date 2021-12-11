@@ -28,9 +28,22 @@ list6.Add(40);
 list6.Add(30);
 list6.Add(70);
 //remove Node 40
-Console.WriteLine("hello");
-list6.RemoveNodeAtParticularPosition(3);
+
+list6.RemoveNodeAtParticularPosition(1);
 list6.Display();
+Console.ReadKey();
+//Create a sorted linked list in ascending order
+Console.WriteLine("create a sorted linked list in acsending order");
+LinkedList list7 = new LinkedList();
+list7.Add(56);
+list7.Add(30);
+list7.Add(40);
+list7.Add(70);
+Console.WriteLine("Before Sorting ");
+list7.Display();
+Console.WriteLine("After Sorting");
+list7.sortList();
+list7.Display();
 Console.ReadKey();
 
 
