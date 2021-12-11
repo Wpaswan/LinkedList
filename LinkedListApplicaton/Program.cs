@@ -24,10 +24,12 @@ list5.Display();
 //Search Node 30 from the given liked list
 Console.WriteLine("Searching the Nodes");
 LinkedList list6 = new LinkedList();
-list6.Add(56);
+list6.Add(40);
 list6.Add(30);
 list6.Add(70);
-list6.Search(30);
+//remove Node 40
+Console.WriteLine("hello");
+list6.RemoveNodeAtParticularPosition(3);
 list6.Display();
 Console.ReadKey();
 
